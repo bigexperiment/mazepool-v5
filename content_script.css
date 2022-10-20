@@ -1,0 +1,57 @@
+.blue {
+  color: blue !important;
+}
+
+.logo.inline {
+  margin: 0px 25px;
+}
+
+input.adsnumber {
+  width: 35px;
+  height: 18px;
+}
+
+form.filter-form.inline {
+  text-align: center;
+  width: 41%;
+}
+
+.bg-blue {
+  background: rgb(255, 255, 255) !important;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(240, 233, 9, 1) 0%,
+    rgba(211, 230, 39, 1) 0%,
+    rgba(175, 227, 76, 1) 0%,
+    rgba(240, 185, 0, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  ) !important;
+  border: white 5px solid;
+  border-radius: 20px;
+  left: 131px;
+}
+
+.mazepool-container {
+  -ms-flex-align: center !important;
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+  height: 20px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  justify-content: center;
+  top: 0px;
+  padding: 10px 0px;
+  justify-content: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.logo {
+  height: 15px !important;
+  width: fit-content !important;
+}
